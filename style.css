@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url(lade.jpg);
+    background-size:cover ;
+}
+.container {
+    background-image: url(la.jpg);
+    background-size:cover ;    height: 500px;
+    width: 800px;
+    height: 100vh;
+    border-radius: 15px;
+    border: 3px solid rgb(19, 19, 19);
+    color: white;
+    position: relative;
+}
+.addTex {
+    font-size: 21px;
+    width: 650px;
+    height: 60px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.addBut {
+    font-size: 18px;
+    padding: 20px 30px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(19, 77, 223);
+    border: 1px solid rgb(0, 0, 0);
+}
+.childStyle {
+    width: 325px;
+    height: 35px;
+    font-size: 16px;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.buttonStyle {
+    font-size: 16px;
+    width: 50px;
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.editStyle {
+    font-size: 16px;
+    width: 50px;
+    background-color: rgb(65, 211, 65);
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.contStyle {
+    display: flex;
+    align-items: center;
+}
+.doneStyle {
+    text-decoration: line-through red 2px;
+    opacity: 70%;
+}
+.chickStyle {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.saveStyle {
+    font-size: 27px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: gold;
+}
+.faceBody {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+#res {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
